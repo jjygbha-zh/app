@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  -webkit-box-orient: vertical;
+}
+header {
+  position: relative;
+  padding: 2rem 0;
+  background: #900;
+}
+header h2 {
+  color: #fff;
+  font-size: 1.6rem;
+  text-align: center;
+}
+header .return {
+  position: absolute;
+  left: 1rem;
+  top: 1.4rem;
+  background: url('../img/fan.png') no-repeat;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+  display: none;
+}
+header .fav {
+  position: absolute;
+  right: 1rem;
+  top: 1.4rem;
+  background: url('../img/xsc.png') no-repeat;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+  display: none;
+}
+header .search {
+  position: absolute;
+  right: 1rem;
+  top: 1.4rem;
+  background: url('../img/sss.png') no-repeat;
+  background-size: cover;
+  width: 3rem;
+  height: 3rem;
+}
+.main {
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  -webkit-box-orient: vertical;
+  background: pink;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.main > div {
+  background: pink;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+}
+.main > div:nth-child(1) {
+  transform: translateX(0);
+}
+.main .home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.main .home a {
+  position: relative;
+  padding: 1rem 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
+.main .home a img {
+  width: 27rem;
+  height: auto;
+}
+.main #list {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.main #list #list_iscroll {
+  height: 65rem;
+}
+.main #list a {
+  position: relative;
+  border-bottom: 1px solid #999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+}
+.main #list a img {
+  width: 5rem;
+  height: auto;
+  padding: 0 1rem;
+}
+footer {
+  background: #222;
+  width: 100%;
+  padding: 1rem 0;
+  position: relative;
+}
+footer nav {
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  -webkit-box-orient: horizontal;
+}
+footer nav a {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+footer .mark {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #000;
+  box-shadow: 0 3px 8px #fff;
+}
